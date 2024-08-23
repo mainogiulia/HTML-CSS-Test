@@ -1,0 +1,135 @@
+/* Your styles here */
+
+/*HEADER*/
+body {
+  margin: 0;
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.top-logo {
+  background-color: #222f3f;
+  width: 100%;
+  margin: 0;
+}
+
+header div img {
+  width: 9%;
+  padding: 0.4rem 0 00.7rem 1.7rem;
+}
+
+nav {
+  background-color: #364759;
+  padding: 0.5rem;
+}
+
+nav p {
+  display: inline;
+  padding-inline: 0.5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*MAIN*/
+main {
+  margin: 2rem;
+}
+
+.orange-banner {
+  background-color: #f56600;
+  padding-block: 0.6rem;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.green-banner {
+  background-image: url("../images/bg-image.png");
+  padding: 4.4rem 0 3.1rem 0;
+  color: white;
+  text-align: center;
+}
+
+.banner-title {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 1.8rem;
+}
+
+.sub-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.four-img {
+  background-color: white;
+  margin-block: 2rem;
+  padding-block: 1rem;
+  height: 100%;
+}
+
+.four-img p {
+  padding-left: 1rem;
+  font-size: 21px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #18737c;
+  font-size: 16px;
+  padding-left: 1rem;
+}
+.four-img img {
+  margin: 1rem 1rem 1rem 1rem;
+  border-radius: 10%;
+  height: 350px;
+  width: 22%;
+  object-fit: cover;
+  box-shadow: 5px 5px 10px #c4c5c0;
+}
+
+.two-img img {
+  width: 100%;
+  height: 420px;
+}
+
+.two-img {
+  text-align: center;
+}
+
+.two-img p {
+  font-size: 21px;
+  letter-spacing: -0.5px;
+  padding-bottom: 2.1rem;
+  font-weight: 600;
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+}
+
+.backToTop {
+  background-color: #364759;
+}
+
+.backToTop p {
+  font-size: 16px;
+  font-weight: 600;
+  padding-block: 1rem;
+}
+
+.backToTop a {
+  color: white;
+  text-decoration: underline;
+}
+
+.bottom-logo {
+  background-color: #222f3f;
+}
+
+.bottom-logo img {
+  width: 13%;
+  padding-block: 4rem;
+}
